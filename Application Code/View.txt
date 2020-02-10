@@ -1,0 +1,64 @@
+<html>
+<body>
+<div class="main">
+<div class="coontainer">
+<div class="header">
+</div>
+<div class="bodyarea">	
+	<table>
+		<tr>
+		<td><input type="text" value="Index"></td>
+		<td><input type="text" value="Monday Rating : "></td>
+		<td><input type="text" value="Monday Feedback : "></td>
+		<td><input type="text" value="Tuesday Rating : "></td>
+		<td><input type="text" value="Tuesday Feedback : "></td>
+		<td><input type="text" value="Wednesday Rating"></td>
+		<td><input type="text" value="Wednesday Feedback : "></td>
+		<td><input type="text" value="Thursday Rating : "></td>
+		<td><input type="text" value="Thursday Feedback : "></td>
+		<td><input type="text" value="Friday Rating : "></td>
+		<td><input type="text" value="Friday Feedback : "></td>
+		<td><input type="text" value="Saturday Rating : "></td>
+		<td><input type="text" value="Saturday Feedback : "></td>
+		<td><input type="text" value="Sunday Rating : "></td>
+		<td><input type="text" value="Sunday Feedback : "></td>
+		</tr>
+	</table>
+<?php
+$a = mysqli_connect("localhost","root","");
+mysqli_select_db($a , "messmenu");
+$x = mysqli_query($a , "select * from `signin`");
+?>
+<?php
+	while($data = mysqli_fetch_array($x))
+	{
+?>
+<table>
+		<tr>
+		<td><input type="text" value="<?php echo $data['id']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate1']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['monday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate2']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['tuesday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate3']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['wednesday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate4']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['thursday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate5']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['friday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate6']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['saturday']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['rate7']; ?>"></td>
+		<td><input type="text" value="<?php echo $data['sunday']; ?>"></td>
+		</tr>
+</table>
+<?php
+	}
+?>
+</div>
+<div class="footer">
+</div>
+</div>
+</div>
+</body>
+</html>

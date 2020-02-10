@@ -1,0 +1,15 @@
+<?php
+$a = mysqli_connect("localhost","root","");
+mysqli_select_db($a , "messmenu");
+$user = $_REQUEST['user'];
+$pass = $_REQUEST['password'];
+$value = mysqli_query($a , "select * from `details` where `confirm` = '$pass' && `regno` = '$user' ");
+while($x = mysqli_fetch_array($value))
+	{
+	$p = $x['regno'];
+	}
+	if($p == "")
+	header("location:http://localhost/messmenu/");
+	else
+	header("location:http://localhost/messmenu/signin.php");
+?>

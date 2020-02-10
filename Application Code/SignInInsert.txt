@@ -1,0 +1,20 @@
+<?php
+$a = mysqli_connect("localhost","root","");
+mysqli_select_db($a , "messmenu");
+$rate1 = $_REQUEST['rate1'];
+$rate2 = $_REQUEST['rate2'];
+$rate3 = $_REQUEST['rate3'];
+$rate4 = $_REQUEST['rate4'];
+$rate5 = $_REQUEST['rate5'];
+$rate6 = $_REQUEST['rate6'];
+$rate7 = $_REQUEST['rate7'];
+$monday = $_REQUEST['monday'];
+$tuesday = $_REQUEST['tuesday'];
+$wednesday = $_REQUEST['wednesday'];
+$thursday = $_REQUEST['thursday'];
+$friday = $_REQUEST['friday'];
+$saturday = $_REQUEST['saturday'];
+$sunday = $_REQUEST['sunday'];
+mysqli_query($a , "insert into `signin` values('' , '$rate1' , '$rate2' , '$rate3' , '$rate4' , '$rate5' , '$rate6' , '$rate7' , '$monday' , '$tuesday' , '$wednesday' , '$thursday' , '$friday' , '$saturday' , '$sunday');");
+header("location:http://localhost/messmenu/signin.php");
+?>

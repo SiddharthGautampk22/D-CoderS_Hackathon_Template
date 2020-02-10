@@ -1,0 +1,12 @@
+<?php
+$a = mysqli_connect("localhost","root","");
+mysqli_select_db($a , "messmenu");
+$first = $_REQUEST['firstname'];
+$last = $_REQUEST['lastname'];
+$dept = $_REQUEST['department'];
+$regno = $_REQUEST['regno'];
+$password = $_REQUEST['password'];
+$confirm = $_REQUEST['confirm'];
+mysqli_query($a , "insert into `details` values('' , '$first' , '$last' , '$dept' , '$regno' , '$password' , '$confirm');");
+header("location:http://localhost/messmenu/index.php");
+?>

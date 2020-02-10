@@ -1,0 +1,489 @@
+<html>
+<u><font size="50" color="#0099FF"><center><head>Mess Menu</head></center></font></u>
+<body>
+<form action="signininsert.php" method="get" enctype="multipart/form-data">
+<div class="main">
+<div class="container">
+	<div class="header">
+	<center><font size="25">Feed Back Form</font></center>
+		</div>
+			<div class="bodyarea">
+				<div class="bodyareaone">
+					<center><u><h1>Timing</h1></u></center>
+						<div class="bodyareaonea">
+							<center><h2>Morning</h2></center>
+							<center><h4>Timing :(7:30 - 9:30 am)</h4></center>
+						</div>
+						<div class="bodyareaoneb">
+							<center><h2>Afternoon</h2></center>
+							<center><h4>Timing :(12:30 - 2:30 pm)</h4></center>
+						</div>
+						<div class="bodyareaonec">
+							<center><h2>Evening</h2></center>
+							<center><h4>Timing :(05:30 - 06:30 pm)</h4></center>
+						</div>
+						<div class="bodyareaoned">
+							<center><h2>Night</h2></center>
+							<center><h4>Timing :(08:00 - 09:30 pm)</h4></center>
+						</div>
+						<div class="bodyareaonee">
+							<center><h2>Rating</h2></center>
+						</div>
+							<center><h2>Feedback</h2></center>
+							<center><input type="submit" value="Submit"></center>		
+				</div>
+				<div class="bodyareatwo">
+					<center><u><h1>Monday</h1></u></center>
+						<div class="bodyareatwoa">
+							<p>Tea,Milk,Bread Buttter/Jam,Pasta/Maggie</p>
+						</div>
+						<div class="bodyareatwob">
+							<p>Tea,Milk bournvita,Puri Sabzi,Bread Butter/Jam</p>
+						</div>
+						<div class="bodyareatwoc">
+							<p>Tea/Soup , Patties</p>
+						</div>
+						<div class="bodyareatwod">
+							<p>Plain Rice,Roti Dal,Salad,Sweet</p>
+						</div>
+						<div class="bodyareatwoe">
+							<br>1<input type="radio" value="1" name="rate1">2<input type="radio" value="2" name="rate1">3<input type="radio" value="3" name="rate1">4<input type="radio" value="4" name="rate1">5<input type="radio" value="5" name="rate1"></br> 
+						</div>
+						<div class="bodyareatwof">
+							<input type="text" name="monday">
+						</div>
+				</div>
+				<div class="bodyareathree">
+					<center><u><h1>Tuesday</h1></u></center>
+						<div class="bodyareathreea">
+							<p>Tea,Milk,Bread Butter/Jam,Puri Sabji,Bournvita</p>
+						</div>
+						<div class="bodyareathreeb">
+							<p>Plain Rice,Jeera Rice,Roti,Musuri Dal,Aloo Bhujiya & Lemon,Pickles</p>
+						</div>
+						<div class="bodyareathreec">
+							<p>Tea & Ghugni/Jhal Moori</p>
+						</div>
+						<div class="bodyareathreed">
+							<p>Plain Rice,Veg Biryani/Veg Pulao,Roti,Dal Tadka,Aloo with Squash/Aloo with Lauki,Mutoor Masala,Salad/Pickles</p>
+						</div>
+						<div class="bodyareathreee">
+							<br>1<input type="radio" value="1" name="rate2">2<input type="radio" value="2" name="rate2">3<input type="radio" value="3" name="rate2">4<input type="radio" value="4" name="rate2">5<input type="radio" value="5" name="rate2"></br>
+						</div>
+						<div class="bodyareathreef">
+							<input type="text" name="tuesday">
+						</div>
+				</div>
+				<div class="bodyareafour">
+					<center><u><h1>Wednesday</h1></u></center>
+						<div class="bodyareafoura">
+							<p>Tea,Milk,Veg Sandwich/Aloo Chop,<br>Boiled Egg</br></p>
+						</div>
+						<div class="bodyareafourb">
+							<p>Plain Rice,Peas Pulao,Roti,Dal Fry,Cabbage with Aloo,Dahi Kadi,Salad/Pickes(Veg Pakoda)</p>
+						</div>
+						<div class="bodyareafourc">
+							<p>Tea & Noodles,Pakora/Kachodi with Tomato Sauce(2 PCS)</p>
+						</div>
+						<div class="bodyareafourd">
+							<p>Plain Rice,Roti,Mix Dal,<br>Fish Curry/Fish Sarso,Paneer Chilly/Paneer BM</br></p>
+						</div>
+						<div class="bodyareafoure">
+							<br>1<input type="radio" value="1" name="rate3">2<input type="radio" value="2" name="rate3">3<input type="radio" value="3" name="rate3">4<input type="radio" value="4" name="rate3">5<input type="radio" value="5" name="rate3"></br>
+						</div>
+						<div class="bodyareafourf">
+							<input type="text" name="wednesday">
+						</div>
+				</div>
+				<div class="bodyareafive">
+					<center><u><h1>Thursday</h1></u></center>
+						<div class="bodyareafivea">
+							<p>Tea,Milk,Bread Butter/Jam,Uttapam/Veg Burger,Banana</p>
+						</div>
+						<div class="bodyareafiveb">
+							<p>Plain Rice,Palak Paratha/Puri/Bhatura,<br>Choola</br></p>
+						</div>
+						<div class="bodyareafivec">
+							<p>Coffee & Biscuit</p>
+						</div>
+						<div class="bodyareafived">
+							<p>Plain Rice,Roti,Channa Dal,Nepali Dum Aloo,Sweet/Ice cream</p>
+						</div>
+						<div class="bodyareafivee">
+								<br>1<input type="radio" value="1" name="rate4">2<input type="radio" value="2" name="rate4">3<input type="radio" value="3" name="rate4">4<input type="radio" value="4" name="rate4">5<input type="radio" value="5" name="rate4"></br>
+						</div>
+						<div class="bodyareafivef">
+							<input type="text" name="thursday">
+						</div>
+				</div>
+				<div class="bodyareasix">
+					<center><u><h1>Friday</h1></u></center>
+						<div class="bodyareasixa">
+							<p>Tea,Milk,Bread Butter/Jam,Aloo Paratha with Aloo Sauce</p>
+						</div>
+						<div class="bodyareasixb">
+							<p>Plain Rice,Roti,Mix Dal,Green Muttor with Aloo/Mix veg,Salad/Pickles/Papad</p>
+						</div>
+						<div class="bodyareasixc">
+							<p>Tea & Veg Phaley/Veg Roll with Tomato Sauce</p>
+						</div>
+						<div class="bodyareasixd">
+							<p>Plain Rice,Roti,Kale Dal,Mix Veg/Omlette Curry/Chicken Curry,Salad/Pickles</p>
+						</div>
+						<div class="bodyareasixe">
+								<br>1<input type="radio" value="1" name="rate5">2<input type="radio" value="2" name="rate5">3<input type="radio" value="3" name="rate5">4<input type="radio" value="4" name="rate5">5<input type="radio" value="5" name="rate5"></br>
+						</div>
+						<div class="bodyareasixf">
+							<input type="text" name="friday">
+						</div>
+				</div>
+				<div class="bodyareaseven">
+					<center><u><h1>Saturday</h1></u></center>
+						<div class="bodyareasevena">
+							<p>Tea,Milk,Pau Bhaji,Bournvita</p>
+						</div>
+						<div class="bodyareasevenb">
+							<p>Plain,Rice,Roti,<br>Gundruk,Aloo Choka,Khichdi,Papad</br></p>
+						</div>
+						<div class="bodyareasevenc">
+							<p>Tea/Coffee,Fruit Cake</p>
+						</div>
+						<div class="bodyareasevend">
+							<p>Plain,Rice,Dal Fry,Veg Chowmin/Veg Fried Rice,Mexed Veg/Manchurian,Tomato Sauce</p>
+						</div>
+						<div class="bodyareasevene">
+								<br>1<input type="radio" value="1" name="rate6">2<input type="radio" value="2" name="rate6">3<input type="radio" value="3" name="rate6">4<input type="radio" value="4" name="rate6">5<input type="radio" value="5" name="rate6"></br>
+						</div>
+						<div class="bodyareasevenf">
+							<input type="text" name="saturday">
+						</div>
+				</div>
+				<div class="bodyareaeight">
+					<center><u><h1>Sunday</h1></u></center>
+						<div class="bodyareaeighta">
+							<p>Tea,Milk,Bread Butter/Jam,Masala Dosa,Sambar with Chutney</p>
+						</div>
+						<div class="bodyareaeightb">
+							<p>Plain Rice,Roti,Dal Tadka,Aloo Chilli with Paneer</p>
+						</div>
+						<div class="bodyareaeightc">
+							<p>Tea & Samosa</p>
+						</div>
+						<div class="bodyareaeightd">
+							<p>Plain Rice,Roti,Dal Fry,Chicken Curry/Chicken Chilli,Muttor Paneer/Paneer BM</p>
+						</div>
+						<div class="bodyareaeighte">
+								<br>1<input type="radio" value="1" name="rate7">2<input type="radio" value="2" name="rate7">3<input type="radio" value="3" name="rate7">4<input type="radio" value="4" name="rate7">5<input type="radio" value="5" name="rate7"></br>
+						</div>
+						<div class="bodyareaeightf">
+							<input type="text" name="sunday">
+							</form>
+							<form action="view.php" method="get" enctype="multipart/form-data">
+							<br><center><input type="submit" value="View"></br></center>
+						</div>
+				</div>
+			</div>
+	</div>
+</div>
+</form>
+</body>
+</html>
+<style>
+.container{
+margin:0 auto;
+width:100%;
+}
+.*{
+margin:0;
+padding:0;
+}
+.header{
+float:left;
+width:100%;
+height:50px;
+border:1px solid black;
+}
+.bodyarea{
+float:left;
+width:100%;
+height:680px;
+border:1px solid;
+}
+.bodyareaone{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareaonea{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaoneb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaonec{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaoned{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwo{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareathree{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareafour{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareafive{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareasix{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareaseven{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareaonee{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwoa{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwob{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwoc{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreea{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreeb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreec{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafoura{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafourb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafourc{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafivea{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafiveb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafivec{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixa{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixc{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevena{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevenb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevenc{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeighta{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeightb{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeightc{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeight{
+float:left;
+width:12.5%;
+height:700px;
+}
+.bodyareatwod{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwoe{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareatwof{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreed{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreee{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareathreef{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafourd{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafoure{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafourf{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafived{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafivee{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareafivef{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixd{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixe{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasixf{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevend{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevene{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareasevenf{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeightd{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeighte{
+float:left;
+width:100%;
+height:100px;
+}
+.bodyareaeightf{
+float:left;
+width:100%;
+height:100px;
+}
+</style>
+</body>
+</html>
